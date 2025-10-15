@@ -1,0 +1,227 @@
+SearchQueryText,user,action
+highly restricted,user1@company.com,search
+highlyrestricted*,user101@company.com,search
+Highly Restricted,user2@company.com,search
+HighlyRestricted*,user102@company.com,search
+aba number,user3@company.com,search
+abanumber*,user103@company.com,search
+aba #,user4@company.com,search
+aba#*,user104@company.com,search
+abarouting#,user5@company.com,search
+abarouting#*,user105@company.com,search
+abaroutingnumber,user6@company.com,search
+abaroutingnumber*,user106@company.com,search
+acct nmb,user7@company.com,search
+acctnmb*,user107@company.com,search
+account number,user8@company.com,search
+accountnumber*,user108@company.com,search
+account no,user9@company.com,search
+accountno*,user109@company.com,search
+acct num,user10@company.com,search
+acctnum*,user110@company.com,search
+american express,user11@company.com,search
+americanexpress*,user111@company.com,search
+amex,user12@company.com,search
+amex*,user112@company.com,search
+atmcards,user13@company.com,search
+atmcards*,user113@company.com,search
+CDL#,user14@company.com,search
+CDL#*,user114@company.com,search
+Checking Account,user15@company.com,search
+CheckingAccount*,user115@company.com,search
+Checking Account #,user16@company.com,search
+CheckingAccount#*,user116@company.com,search
+Checking Account No.,user17@company.com,search
+CheckingAccountNo.*,user117@company.com,search
+checking acct number,user18@company.com,search
+checkingacctnumber*,user118@company.com,search
+cid,user19@company.com,search
+DL#,user20@company.com,search
+DLS#,user21@company.com,search
+DLS#*,user121@company.com,search
+Driver Lic,user22@company.com,search
+DriverLic*,user122@company.com,search
+Driver Lic#,user23@company.com,search
+DriverLic#*,user123@company.com,search
+Driver License,user24@company.com,search
+DriverLicense*,user124@company.com,search
+Driver License#,user25@company.com,search
+DriverLicense#*,user125@company.com,search
+Driver Licenses,user26@company.com,search
+DriverLicenses*,user126@company.com,search
+Drivers Licenses#,user27@company.com,search
+DriversLicenses#*,user127@company.com,search
+idcard,user28@company.com,search
+idcard*,user128@company.com,search
+idcard #,user29@company.com,search
+idcard#*,user129@company.com,search
+idcards #s,user30@company.com,search
+idcards#s*,user130@company.com,search
+idcard card,user31@company.com,search
+idcardcard*,user131@company.com,search
+idcard cards,user32@company.com,search
+idcardcards*,user132@company.com,search
+idcard cards#,user33@company.com,search
+idcardcards#*,user133@company.com,search
+idcard number,user34@company.com,search
+idcardnumber*,user134@company.com,search
+idcard numbers,user35@company.com,search
+idcardnumbers*,user135@company.com,search
+Identification Card,user36@company.com,search
+IdentificationCard*,user136@company.com,search
+identification card,user37@company.com,search
+identificationcard*,user137@company.com,search
+identificatino card#,user38@company.com,search
+identificatinocard#*,user138@company.com,search
+identification cards#,user39@company.com,search
+identificationcards#*,user139@company.com,search
+pii,user40@company.com,search
+Pii,user41@company.com,search
+PII,user42@company.com,search
+restricted,user43@company.com,search
+restricted*,user143@company.com,search
+Restricted,user44@company.com,search
+Restricted*,user144@company.com,search
+rout number,user45@company.com,search
+routnumber*,user145@company.com,search
+rout #,user46@company.com,search
+rout#*,user146@company.com,search
+Routing number,user47@company.com,search
+Routingnumber*,user147@company.com,search
+routing #,user48@company.com,search
+routing#*,user148@company.com,search
+Savings Account #,user49@company.com,search
+SavingsAccount#*,user149@company.com,search
+Savings Account #,user50@company.com,search
+SavingsAccount#*,user150@company.com,search
+Savings Account num,user51@company.com,search
+SavingsAccountnum*,user151@company.com,search
+Savings account number,user52@company.com,search
+Savingsaccountnumber*,user152@company.com,search
+Social security,user53@company.com,search
+Socialsecurity*,user153@company.com,search
+social security,user54@company.com,search
+socialsecurity*,user154@company.com,search
+social security number,user55@company.com,search
+socialsecuritynumber*,user155@company.com,search
+Social Security Number,user56@company.com,search
+SocialSecurityNumber*,user156@company.com,search
+Social Security #,user57@company.com,search
+SocialSecurity#*,user157@company.com,search
+social security #,user58@company.com,search
+socialsecurity#*,user158@company.com,search
+SSID,user59@company.com,search
+SSID*,user159@company.com,search
+SSN,user60@company.com,search
+ssn,user61@company.com,search
+SSN#,user62@company.com,search
+SSN#*,user162@company.com,search
+SSNS,user63@company.com,search
+SSNS*,user163@company.com,search
+project plan,benign1@company.com,search
+meeting notes,benign2@company.com,search
+vacation schedule,benign3@company.com,search
+holiday calendar,benign4@company.com,search
+team roster,benign5@company.com,search
+marketing strategy,benign6@company.com,search
+product roadmap,benign7@company.com,search
+SSN list,user1@company.com,search
+salary report,user2@company.com,search
+quarterly financials,user3@company.com,search
+social security number,user4@company.com,search
+bank account numbers,user5@company.com,search
+KyRi*,user6@company.com,search
+credit card info,user7@company.com,search
+personal data,user8@company.com,search
+vacation schedule,user9@company.com,search
+project plan,user10@company.com,search
+meeting notes,user11@company.com,search
+SSN lookup,user12@company.com,search
+ky*,user13@company.com,search
+employee phone numbers,user14@company.com,search
+drivers license,user15@company.com,search
+tax forms,user16@company.com,search
+bank routing numbers,user17@company.com,search
+HR contacts,user18@company.com,search
+holiday calendar,user19@company.com,search
+client contracts,user20@company.com,search
+passport scans,user21@company.com,search
+customer addresses,user22@company.com,search
+health records,user23@company.com,search
+credit card statements,user24@company.com,search
+401k contributions,user25@company.com,search
+expense receipts,user26@company.com,search
+product roadmap,user27@company.com,search
+marketing strategy,user28@company.com,search
+compensation package,user29@company.com,search
+social sec*,user30@company.com,search
+driver lic*,user31@company.com,search
+payroll data,user32@company.com,search
+bonus payouts,user33@company.com,search
+insurance policies,user34@company.com,search
+employee handbook,user35@company.com,search
+engineering diagrams,user36@company.com,search
+sales leads,user37@company.com,search
+customer PII,user38@company.com,search
+address list,user39@company.com,search
+phone directory,user40@company.com,search
+kyri data,user41@company.com,search
+payment details,user42@company.com,search
+wire transfer info,user43@company.com,search
+internal audit,user44@company.com,search
+project kickoff,user45@company.com,search
+lunch menu,user46@company.com,search
+employee SSN,user47@company.com,search
+client SSNs,user48@company.com,search
+confidential report,user49@company.com,search
+source code,user50@company.com,search
+ky results,user51@company.com,search
+account numbers,user52@company.com,search
+iban list,user53@company.com,search
+swift codes,user54@company.com,search
+shareholder data,user55@company.com,search
+equity grants,user56@company.com,search
+product specs,user57@company.com,search
+release notes,user58@company.com,search
+customer invoices,user59@company.com,search
+conf call notes,user60@company.com,search
+credit report,user61@company.com,search
+ssn*,user62@company.com,search
+ky* data,user63@company.com,search
+kyri financials,user64@company.com,search
+driver license copies,user65@company.com,search
+passport number,user66@company.com,search
+confidential payroll,user67@company.com,search
+vendor contracts,user68@company.com,search
+performance reviews,user69@company.com,search
+holiday party list,user70@company.com,search
+vacation requests,user71@company.com,search
+kyri docs,user72@company.com,search
+account credentials,user73@company.com,search
+PII records,user74@company.com,search
+contact information,user75@company.com,search
+banking details,user76@company.com,search
+loan applications,user77@company.com,search
+benefits enrollment,user78@company.com,search
+compliance checklist,user79@company.com,search
+marketing leads,user80@company.com,search
+salary spreadsheet,user81@company.com,search
+compensation spreadsheet,user82@company.com,search
+employee SSNs,user83@company.com,search
+kyri data exfil,user84@company.com,search
+bank account list,user85@company.com,search
+debit card info,user86@company.com,search
+credit card list,user87@company.com,search
+social sec records,user88@company.com,search
+insurance claims,user89@company.com,search
+team roster,user90@company.com,search
+conference agenda,user91@company.com,search
+work anniversary list,user92@company.com,search
+ky report,user93@company.com,search
+financial forecast,user94@company.com,search
+personal identifiers,user95@company.com,search
+employee addresses,user96@company.com,search
+pay stubs,user97@company.com,search
+internal salaries,user98@company.com,search
+customer credit info,user99@company.com,search
+meeting minutes,user100@company.com,search

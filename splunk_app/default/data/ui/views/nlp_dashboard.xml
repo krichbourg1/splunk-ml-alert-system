@@ -1,0 +1,74 @@
+<dashboard>
+  <label>NLP Alert Analysis Dashboard</label>
+  <description>Real-time analysis of search queries and alerts using NLP</description>
+  
+  <row>
+    <panel>
+      <title>High Similarity Alerts</title>
+      <table>
+        <search>
+          <query>index=nlp_alerts | where nlp_similarity_score > 0.7 | sort - nlp_similarity_score | head 20 | table _time, query, nlp_most_similar_term, nlp_similarity_score, nlp_sentiment_label</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">row</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+  
+  <row>
+    <panel>
+      <title>Similarity Score Distribution</title>
+      <chart>
+        <search>
+          <query>index=nlp_alerts | bucket nlp_similarity_score span=0.1 | stats count by nlp_similarity_score | sort nlp_similarity_score</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="charting.chart">column</option>
+        <option name="charting.axisTitleX.text">Similarity Score</option>
+        <option name="charting.axisTitleY.text">Count</option>
+      </chart>
+    </panel>
+    
+    <panel>
+      <title>Sentiment Analysis</title>
+      <chart>
+        <search>
+          <query>index=nlp_alerts | stats count by nlp_sentiment_label | sort - count</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+      </chart>
+    </panel>
+  </row>
+  
+  <row>
+    <panel>
+      <title>Top Similar Terms</title>
+      <table>
+        <search>
+          <query>index=nlp_alerts | stats count, avg(nlp_similarity_score) as avg_similarity by nlp_most_similar_term | sort - count | head 10</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">row</option>
+      </table>
+    </panel>
+    
+    <panel>
+      <title>Analysis Over Time</title>
+      <chart>
+        <search>
+          <query>index=nlp_alerts | timechart span=1h count by nlp_sentiment_label</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.legend.placement">right</option>
+      </chart>
+    </panel>
+  </row>
+</dashboard>

@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  nlp-alert-service:
+    build: .
+    container_name: nlp-alert-service
+    ports:
+      - "5000:5000"
+    environment:
+      # Splunk REST API Configuration
+      - SPLUNK_REST_URL=https://your-splunk-host:8089
+      - SPLUNK_USERNAME=your-username
+      - SPLUNK_PASSWORD=your-password
+      - SPLUNK_SEARCH_NAME=nlp_docker_test
+      
+      # Splunk HEC Configuration
+      - SPLUNK_HEC_URL=https://your-splunk-host:8088/services/collector
+      - SPLUNK_HEC_TOKEN=your-hec-token-here
+      - SPLUNK_INDEX=nlp_test
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
